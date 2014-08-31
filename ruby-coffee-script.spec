@@ -14,7 +14,8 @@ BuildRequires:	rpmbuild(macros) >= 1.656
 BuildRequires:	glibc-localedb-all
 %endif
 Requires:	ruby-railties
-Requires:	ruby-coffee-script >= 2.2.0 
+Requires:	ruby-coffee-script-source
+Requires:	ruby-execjs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
